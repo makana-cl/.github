@@ -7,3 +7,13 @@ A las compañías les damos algo igual de valioso: data accionable para prevenir
 
 
 ✨ Bienestar que se ve, se mide y se siente.
+
+
+## Desafío tecnico
+Para iniciar el desafío tecnico debes hacer un `post` desde tu terminal con tu **Nombre**, **mail** y **usuario de github**. Debes hacer click en el enlace y aceptar la invitacion al repositorio.
+```
+curl -X POST https://www.makana.cl/candidates/repos \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "github_username=cjjouanne&name=Carlos+Jouanne&email=carlos@makana.cl"
+```
+En caso de necesidad, escribeme a carlos@makana.cl
